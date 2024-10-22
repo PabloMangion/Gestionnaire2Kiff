@@ -29,7 +29,7 @@
             "email": "sophie.leroy@example.com"
         },
         "date": "2024-10-24",
-        "adresse": "15 Boulevard de la République, 31000 Toulouse",
+        "adresse": "15 Boulevard de la R\u00e9publique, 31000 Toulouse",
         "id_playlist": 3
     },
     {
@@ -40,7 +40,7 @@
             "email": "julien.dupuis@example.com"
         },
         "date": "2024-10-25",
-        "adresse": "9 Rue de l'Université, 69007 Lyon",
+        "adresse": "9 Rue de l'Universit\u00e9, 69007 Lyon",
         "id_playlist": 4
     },
     {

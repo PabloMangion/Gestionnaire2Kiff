@@ -119,7 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <div class="container">
     <h2>Réservez une soirée avec DJ Marcel</h2>
-    <form action="reservation.php" method="POST">
+    <form action="./form.php" method="POST">
         <label for="prenom">Prénom</label>
         <input type="text" id="prenom" name="prenom" required>
 
