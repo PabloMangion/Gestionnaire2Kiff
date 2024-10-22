@@ -1,16 +1,57 @@
 [
     {
         "id": 1,
-        "nom": "Jean Dupont",
-        "email": "jean.dupont@example.com",
-        "date_reservation": "2024-10-15 18:30:00",
-        "nombre_personnes": 2
+        "client": {
+            "prenom": "Loan",
+            "nom": "Boulin",
+            "email": "loanboulin@gmail.com"
+        },
+        "date": "2024-10-22",
+        "adresse": "6 Rue du Vaugueux, 14000 Caen",
+        "id_playlist": 1
     },
     {
         "id": 2,
-        "nom": "Marie Curie",
-        "email": "marie.curie@example.com",
-        "date_reservation": "2024-10-16 20:00:00",
-        "nombre_personnes": 4
+        "client": {
+            "prenom": "Alice",
+            "nom": "Martin",
+            "email": "alice.martin@example.com"
+        },
+        "date": "2024-10-23",
+        "adresse": "12 Avenue des Champs, 75008 Paris",
+        "id_playlist": 2
+    },
+    {
+        "id": 3,
+        "client": {
+            "prenom": "Sophie",
+            "nom": "Leroy",
+            "email": "sophie.leroy@example.com"
+        },
+        "date": "2024-10-24",
+        "adresse": "15 Boulevard de la République, 31000 Toulouse",
+        "id_playlist": 3
+    },
+    {
+        "id": 4,
+        "client": {
+            "prenom": "Julien",
+            "nom": "Dupuis",
+            "email": "julien.dupuis@example.com"
+        },
+        "date": "2024-10-25",
+        "adresse": "9 Rue de l'Université, 69007 Lyon",
+        "id_playlist": 4
+    },
+    {
+        "id": 5,
+        "client": {
+            "prenom": "Emma",
+            "nom": "Roussel",
+            "email": "emma.roussel@example.com"
+        },
+        "date": "2024-10-26",
+        "adresse": "22 Rue des Fleurs, 13001 Marseille",
+        "id_playlist": 5
     }
 ]

@@ -1,6 +1,6 @@
 <?php
 // Chemin vers le fichier JSON
-$jsonFile = 'reservations.json';
+$jsonFile = 'data/reservations.json';
 
 // Vérifier si le fichier existe
 if (!file_exists($jsonFile)) {
