@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "nom":"Playlist Guinguette",
+        "musiques": [
+            {
+                "titre" : "",
+                "auteur" : "",
+                "duree" : ""
+            }
+        ]
+    }
+]
