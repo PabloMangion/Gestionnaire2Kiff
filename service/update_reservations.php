@@ -26,6 +26,6 @@ $newReservationsData = json_encode($reservations, JSON_PRETTY_PRINT);
 file_put_contents($reservationsFile, $newReservationsData);
 
 // Rediriger vers la page précédente ou afficher un message de succès
-header("Location: index.php?message=Réservations mises à jour avec succès");
+header("Location: ../index.php");
 exit;
 ?>

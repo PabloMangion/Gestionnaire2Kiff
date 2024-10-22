@@ -52,9 +52,17 @@ if (is_array($reservations) && count($reservations) > 0) {
         echo "</tr>";
     }
     echo "</table>";
-    echo "<input type='submit' value='Modifier les Playlists'>";
+    echo "<input type='submit' class='button update-button' value='Valider les modifications'>";
     echo "</form>";
 } else {
     echo "Aucune réservation trouvée.";
 }
 ?>
+
+<style>
+
+.update-button{
+    margin-top : 20px;
+}
+
+</style>
