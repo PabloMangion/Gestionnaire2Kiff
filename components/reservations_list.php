@@ -15,18 +15,19 @@ $reservations = json_decode($jsonData, true);
 
 // Vérifier si des réservations existent
 if (is_array($reservations) && count($reservations) > 0) {
-    echo "<h1>Liste des réservations</h1>";
     echo "<table border='1'>";
-    echo "<tr><th>ID</th><th>Nom</th><th>Email</th><th>Date de réservation</th><th>Nombre de personnes</th></tr>";
+    echo "<tr><th>ID</th><th>Prénom</th><th>Nom</th><th>Email</th><th>Date de réservation</th><th>Adresse</th><th>ID Playlist</th></tr>";
 
     // Afficher chaque réservation
     foreach ($reservations as $reservation) {
         echo "<tr>";
         echo "<td>" . htmlspecialchars($reservation["id"]) . "</td>";
-        echo "<td>" . htmlspecialchars($reservation["nom"]) . "</td>";
-        echo "<td>" . htmlspecialchars($reservation["email"]) . "</td>";
-        echo "<td>" . htmlspecialchars($reservation["date_reservation"]) . "</td>";
-        echo "<td>" . htmlspecialchars($reservation["nombre_personnes"]) . "</td>";
+        echo "<td>" . htmlspecialchars($reservation["client"]["prenom"]) . "</td>";
+        echo "<td>" . htmlspecialchars($reservation["client"]["nom"]) . "</td>";
+        echo "<td>" . htmlspecialchars($reservation["client"]["email"]) . "</td>";
+        echo "<td>" . htmlspecialchars($reservation["date"]) . "</td>";
+        echo "<td>" . htmlspecialchars($reservation["adresse"]) . "</td>";
+        echo "<td>" . htmlspecialchars($reservation["id_playlist"]) . "</td>";
         echo "</tr>";
     }
     echo "</table>";
