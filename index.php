@@ -50,5 +50,15 @@
     include 'components/reservations_list.php';
 ?>
 
+
+<h2>
+    Liste des playlists
+</h2>
+
+<?php
+    // Inclure le fichier reservations.php
+    include 'components/playlists_list.php';
+?>
+
 </body>
 </html>

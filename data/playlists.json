@@ -9,5 +9,21 @@
                 "duree" : ""
             }
         ]
+    },
+    {
+        "id": 2,
+        "nom": "Playlist Classique",
+        "musiques": [
+            {
+                "titre": "Symphonie n°5",
+                "auteur": "Beethoven",
+                "duree": "7:00"
+            },
+            {
+                "titre": "Le Printemps",
+                "auteur": "Vivaldi",
+                "duree": "10:20"
+            }
+        ]
     }
 ]
