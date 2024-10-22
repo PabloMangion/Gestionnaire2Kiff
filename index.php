@@ -31,7 +31,7 @@
 
 <?php
     // Inclure le fichier reservations.php
-    include 'components/reservations.php';
+    include 'components/reservations_list.php';
 ?>
 
 </body>
