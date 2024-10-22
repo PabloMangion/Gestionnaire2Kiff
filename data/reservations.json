@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nom": "Jean Dupont",
+        "email": "jean.dupont@example.com",
+        "date_reservation": "2024-10-15 18:30:00",
+        "nombre_personnes": 2
+    },
+    {
+        "id": 2,
+        "nom": "Marie Curie",
+        "email": "marie.curie@example.com",
+        "date_reservation": "2024-10-16 20:00:00",
+        "nombre_personnes": 4
+    }
+]
