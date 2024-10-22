@@ -7,24 +7,24 @@
                 "titre" : "Let It Be",
                 "auteur" : "Feestteam",
                 "duree" : "196"
-            }
+            },
             {
                 "titre" : "Fais-moi mal, Johnny !",
                 "auteur" : "Magali Noël",
                 "duree" : "142"
-            }
+            },
             {
                 "titre" : "La bohème",
                 "auteur" : "Charles Aznavour",
                 "duree" : "245"
-            }
+            },
             {
                 "titre" : "Fernande",
                 "auteur" : "Georges Brassens",
                 "duree" : "221"
             }
         ]
-    }
+    },
     {
         "id": 2,
         "nom":"Playlist des Djeuns",
@@ -33,24 +33,24 @@
                 "titre" : "Clic clic pan pan",
                 "auteur" : "Yanns",
                 "duree" : "163"
-            }
+            },
             {
                 "titre" : "La kiffance",
                 "auteur" : "Naps",
                 "duree" : "179"
-            }
+            },
             {
                 "titre" : "Sucepute",
                 "auteur" : "Alkpote",
                 "duree" : "207"
-            }
+            },
             {
                 "titre" : "Die",
                 "auteur" : "Gazo",
                 "duree" : "240"
             }
         ]
-    }
+    },
     {
         "id": 3,
         "nom":"Playlist 2 tox",
@@ -59,17 +59,17 @@
                 "titre" : "La Teuf du Farfadet",
                 "auteur" : "Guigoo, Mat Weasel Busters, Farfaders",
                 "duree" : "254"
-            }
+            },
             {
                 "titre" : "Maman va gueuler",
                 "auteur" : "La Wanski",
                 "duree" : "361"
-            }
+            },
             {
                 "titre" : "Electro hard",
                 "auteur" : "Sombre Song",
                 "duree" : "166"
-            }
+            },
             {
                 "titre" : "Rage",
                 "auteur" : "Act of Rage, MC Jeff",
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 4,
         "nom": "Playlist Classique",
         "musiques": [
             {
